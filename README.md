@@ -1,4 +1,3 @@
-Berikut adalah contoh file `README.md` yang sederhana namun informatif untuk `proot`:
 
 ```markdown
 # PRoot - Virtual Root Filesystem for Linux
