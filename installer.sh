@@ -9,7 +9,7 @@ ARCH=$(uname -m)
 # Tentukan arsitektur alternatif berdasarkan sistem
 if [ "$ARCH" = "x86_64" ]; then
   ARCH_ALT=amd64
-  PROOT_URL="https://raw.githubusercontent.com/Mark-HDR/proot/ARCH/x86-64"
+  PROOT_URL="https://raw.githubusercontent.com/Mark-HDR/proot/ARCH/x86_64"
 elif [ "$ARCH" = "aarch64" ]; then
   ARCH_ALT=arm64
   PROOT_URL="https://raw.githubusercontent.com/Mark-HDR/proot/ARCH/aarch64"
